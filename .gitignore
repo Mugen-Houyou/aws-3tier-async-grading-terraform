@@ -1,0 +1,64 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+!environments/**/*.tfvars
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+tfplan*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+
+# AWS credentials (never commit these!)
+.aws/
+aws-credentials
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Node.js (if using Node.js for web app)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if using Python for grading service)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Backup files
+*.bak
+*.backup
+*~
